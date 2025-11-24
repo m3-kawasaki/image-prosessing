@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シニアテック・ラボ | 画像処理・AI・PC同好会</title>
+    <meta name="description" content="企業OBが集まり、画像処理やAI技術について楽しく学ぶコミュニティ。60代〜80代が中心で、初心者からベテランまで歓迎。Zoom飲み会も開催中！">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-microchip"></i> Senior Tech Lab
+            </a>
+            <button class="menu-toggle" aria-label="メニューを開く">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">ホーム</a></li>
+                <li><a href="#about">私たちについて</a></li>
+                <li><a href="#activities">活動内容</a></li>
+                <li><a href="#voice">メンバーの声</a></li>
+                <li><a href="contact.html" class="btn-primary">参加する</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <span class="hero-subtitle fade-in-up">オリンパスOBの一世クラブ、大人の技術コミュニティ</span>
+            <h1 class="hero-title fade-in-up delay-1">
+                <span class="text-gradient">画像処理同好会</span>
+            </h1>
+            <p class="hero-description fade-in-up delay-2">
+                画像処理、AI、PC技術を自由に語り合う場所。<br>
+                60代から80代まで、初心者もベテランも。<br>
+                学びと交流の新しいライフスタイルを始めませんか？
+            </p>
+            <div class="hero-buttons fade-in-up delay-3">
+                <a href="#about" class="btn btn-primary">詳しく見る <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#activities" class="btn btn-secondary">活動風景 <i class="fa-solid fa-images"></i></a>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                    class="shape-fill"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">About Us</span>
+                <h2 class="section-title">画像処理同好会とは？</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-card scroll-reveal">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3>企業OBのコミュニティ</h3>
+                    <p>様々なバックグラウンドを持つオリンパスOBが集結。技術的な知見だけでなく、豊かな人生経験も共有できる場です。</p>
+                </div>
+                <div class="about-card scroll-reveal delay-1">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-hands-holding-circle"></i>
+                    </div>
+                    <h3>全世代・全レベル歓迎</h3>
+                    <p>60代を中心に、70代・80代の方も元気に活動中。初心者から専門家まで、互いに教え合い、学び合います。</p>
+                </div>
+                <div class="about-card scroll-reveal delay-2">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-beer-mug-empty"></i>
+                    </div>
+                    <h3>Zoom飲み会で交流</h3>
+                    <p>例会の後は、オンラインで乾杯！自宅から気軽に参加できるZoom飲み会で、会員同士の親睦を深めています。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Activities Section -->
+    <section id="activities" class="section activities">
+        <div class="container">
+            <div class="activities-wrapper">
+                <div class="activities-content scroll-reveal">
+                    <span class="section-tag">Our Activities</span>
+                    <h2 class="section-title">主な活動内容</h2>
+                    <p class="activities-desc">
+                        2か月に1回の例会をオンライン（Zoom）で行っています。<br>
+                        堅苦しい講義ではなく、自由な発表とディスカッションが中心です。
+                    </p>
+
+                    <ul class="activity-list">
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>画像処理技術の研究・発表</strong>
+                                <p>PhotoshopからOpenCV、最新の生成AIまで幅広く。</p>
+                                <div class="activity-image">
+                                    <img src="images/butterfly.png" alt="ツマグロヒョウモン - 画像処理サンプル">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>AI・PC関連情報の共有</strong>
+                                <p>便利なツールの紹介や、PCトラブルの相談など。</p>
+                                <div class="activity-image">
+                                    <img src="images/clone_voice.png" alt="クローン音声の実例 - AI技術紹介">
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-check-circle"></i>
+                            <div>
+                                <strong>オンライン（Zoom）懇親会</strong>
+                                <p>技術の話から趣味の話まで、時間を忘れて語り合います。</p>
+                                <div class="activity-image">
+                                    <img src="images/zoom_party_new.jpg" alt="オンライン懇親会 - Zoom飲み会の様子">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="activities-visual scroll-reveal delay-1">
+                    <!-- Abstract visual representation since we can't generate images -->
+                    <div class="visual-card main-visual">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <span>Tech Discussion</span>
+                    </div>
+                    <div class="visual-card sub-visual-1">
+                        <i class="fa-solid fa-wine-glass"></i>
+                        <span>Zoom Party</span>
+                    </div>
+                    <div class="visual-card sub-visual-2">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>AI Study</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Voice Section -->
+    <section id="voice" class="section voice">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Members' Voice</span>
+                <h2 class="section-title">参加者の声</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="voice-grid">
+                <div class="voice-card scroll-reveal">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="voice-text">
+                        定年後、技術から離れていましたが、ここに来て最新のAI技術に触れ、知的好奇心が刺激されています。80代の先輩がバリバリコードを書いている姿に励まされます。
+                    </p>
+                    <div class="voice-author">
+                        <div class="author-avatar" style="background-color: #3498db;">K</div>
+                        <div class="author-info">
+                            <h4>K.T さん</h4>
+                            <span>60代 / 元エンジニア</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="voice-card scroll-reveal delay-1">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="voice-text">
+                        画像処理は全くの初心者でしたが、皆さんが優しく教えてくれるので楽しく続けられています。例会後のZoom飲み会が毎月の楽しみです！
+                    </p>
+                    <div class="voice-author">
+                        <div class="author-avatar" style="background-color: #e67e22;">S</div>
+                        <div class="author-info">
+                            <h4>S.M さん</h4>
+                            <span>70代 / 趣味：写真</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="voice-card scroll-reveal delay-2">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+                    <p class="voice-text">
+                        自宅にいながら同世代の仲間とつながれるのが良いですね。PCのトラブルもここで相談するとすぐに解決策が見つかるので助かっています。
+                    </p>
+                    <div class="voice-author">
+                        <div class="author-avatar" style="background-color: #1abc9c;">Y</div>
+                        <div class="author-info">
+                            <h4>Y.O さん</h4>
+                            <span>80代 / 元事務職</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="section cta">
+        <div class="container cta-content text-center">
+            <h2 class="scroll-reveal">新しい仲間をお待ちしています</h2>
+            <p class="scroll-reveal delay-1">
+                見学も随時受け付けています。<br>
+                まずは一度、私たちの活動を覗いてみませんか？
+            </p>
+            <a href="contact.html" class="btn btn-light btn-lg scroll-reveal delay-2">お問い合わせ・参加申し込み</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fa-solid fa-microchip"></i> Senior Tech Lab</h3>
+                    <p>技術を楽しむ、人生を楽しむ。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="#home">ホーム</a></li>
+                        <li><a href="#about">私たちについて</a></li>
+                        <li><a href="#activities">活動内容</a></li>
+                        <li><a href="#contact">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2025 Senior Tech Lab. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ・参加申し込み | シニアテック・ラボ</title>
+    <meta name="description" content="シニアテック・ラボへのお問い合わせ、見学・入会のお申し込みはこちらから。">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-microchip"></i> Senior Tech Lab
+            </a>
+            <button class="menu-toggle" aria-label="メニューを開く">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html#home">ホーム</a></li>
+                <li><a href="index.html#about">私たちについて</a></li>
+                <li><a href="index.html#activities">活動内容</a></li>
+                <li><a href="index.html#voice">メンバーの声</a></li>
+                <li><a href="contact.html" class="btn-primary">参加する</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-tag">Contact Us</span>
+                <h2 class="section-title">お問い合わせ・参加申し込み</h2>
+                <div class="section-line"></div>
+                <p style="margin-top: 20px; max-width: 600px; margin-left: auto; margin-right: auto;">
+                    見学のお申し込み、入会に関するご質問など、お気軽にお問い合わせください。<br>
+                    内容を確認後、担当者よりご連絡させていただきます。
+                </p>
+            </div>
+
+            <div class="contact-form-container fade-in-up">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name" class="form-label">お名前 <span style="color: #e74c3c;">*</span></label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="例：山田 太郎" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email" class="form-label">メールアドレス <span style="color: #e74c3c;">*</span></label>
+                        <input type="email" id="email" name="email" class="form-control"
+                            placeholder="例：yamada@example.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject" class="form-label">件名 <span style="color: #e74c3c;">*</span></label>
+                        <select id="subject" name="subject" class="form-control" required>
+                            <option value="" disabled selected>選択してください</option>
+                            <option value="visit">見学を希望する</option>
+                            <option value="join">入会について詳しく聞きたい</option>
+                            <option value="other">その他のお問い合わせ</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message" class="form-label">メッセージ <span style="color: #e74c3c;">*</span></label>
+                        <textarea id="message" name="message" class="form-control" placeholder="お問い合わせ内容をご記入ください"
+                            required></textarea>
+                    </div>
+
+                    <div class="form-submit">
+                        <button type="submit" class="btn btn-primary btn-lg">送信する <i
+                                class="fa-solid fa-paper-plane"></i></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3><i class="fa-solid fa-microchip"></i> Senior Tech Lab</h3>
+                    <p>技術を楽しむ、人生を楽しむ。</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Links</h4>
+                    <ul>
+                        <li><a href="index.html#home">ホーム</a></li>
+                        <li><a href="index.html#about">私たちについて</a></li>
+                        <li><a href="index.html#activities">活動内容</a></li>
+                        <li><a href="contact.html">お問い合わせ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <p><i class="fa-solid fa-envelope"></i> info@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03-1234-5678</p>
+                </div>
+            </div>
+            <div class="footer-bottom text-center">
+                <p>&copy; 2025 Senior Tech Lab. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
